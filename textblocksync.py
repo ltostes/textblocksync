@@ -18,15 +18,10 @@ for use in config['use_blocks']:
         block_start = config['base_blocks'][block_name]['block_start']
         block_end = config['base_blocks'][block_name]['block_end']
 
-        print('Start_pre: ',block_start)
-        print('End_pre: ',block_start)
         # Fixing regex special chars that might be in the block_begin and block_end
         for special_char, replacement in regex_specialchar_conversion.items():
             block_start = block_start.replace(special_char,replacement)
             block_end = block_end.replace(special_char,replacement)
-
-        print('Start_post: ',block_start)
-        print('End_post: ',block_start)
 
         into_file_path = use['file']
 
