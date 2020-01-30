@@ -1,0 +1,10 @@
+This is file 1.
+This is where we start using the code blocks. We also might reuse it inside others (file 2 for instance).
++ F1S
+This is where block 1 should go in. With header, end and all.
+-- Beginning of block 1
+you should not read this.
+-- End of block 1
+We will also use a block that contains another block unblocking everything or blocking I'm lost.
++ F1E
+Don't care.

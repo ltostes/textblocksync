@@ -1,0 +1,9 @@
+This is the file that contains base block 1.
+-- Beginning of block 1
+this is block 1
+it contains a lot of content
+...
+or not
+-- End of block 1
+This is the rest of the file
+We don't care about it

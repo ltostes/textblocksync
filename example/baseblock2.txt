@@ -1,0 +1,8 @@
+This is the file that contains base block 2.
+** Block 2 start
+This is block 2.
+It has a higher number than block 1.
+But no important content.
+** Block 2 end
+This is the rest, we don't care about it as usual.
+Really.

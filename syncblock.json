@@ -1,0 +1,32 @@
+{
+    "base_blocs" : [
+        {
+            "name": "Block1",
+            "file": "./example/baseblock1.txt",
+            "block_start": "-- Beginning of block 1",
+            "block_end": "-- End of block 1"
+        },
+        {
+            "name": "Block2",
+            "file": "./example/baseblock2.txt",
+            "block_start": "** Block 2 start",
+            "block_end": "** Block 2 end"
+        },
+        {
+            "name": "File1",
+            "file": "./example/file1.txt",
+            "block_start": "+ F1S",
+            "block_end": "+ F1E"
+        }
+    ],
+    "use_blocks" : [
+        {
+            "use_block": "Block1",
+            "file": "./example/file1.txt"
+        },
+        {
+            "use_blocks": ["File1","Block2"],
+            "file": "./example/file2.txt"
+        }
+    ]
+}
